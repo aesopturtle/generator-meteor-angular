@@ -4,12 +4,12 @@
   "description": "The Yeoman generator for a Meteor project with Angular2 as a front-end framework.",
   "homepage": "https://github.com/aesopturtle/generator-meteor-angular",
   "author": {
-    "name": "aesopturtle",
+    "name": "Sorawit Wanitwarodom",
     "email": "aesopturtle@msn.com",
     "url": "https://github.com/aesopturtle"
   },
   "files": [
-    "generators"
+    "generators/app"
   ],
   "main": "generators\\index.js",
   "keywords": [
@@ -19,12 +19,13 @@
     "yeoman-generator"
   ],
   "dependencies": {
-    "yeoman-generator": "^0.23.0",
     "chalk": "^1.0.0",
+    "fs-extra": "^0.30.0",
+    "yeoman-generator": "^0.24.1",
     "yosay": "^1.0.0"
   },
   "devDependencies": {
-    "yeoman-test": "^1.0.0",
+    "yeoman-test": "^1.4.0",
     "yeoman-assert": "^2.0.0",
     "eslint": "^2.1.0",
     "eslint-config-xo-space": "^0.13.0",
